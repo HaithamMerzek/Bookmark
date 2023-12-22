@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <title>Bookmark</title>
+  <style>
+    body {
+      background-color: #e6e8d2 !important;
+      color: black !important;
+    }
+  </style>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <h1>Bookmarker</h1>
+  <div class="container my-5">
+    <label for="siteNameInput" class="my-2">Site Name</label>
+    <input type="text" placeholder="Bookmark Name" class="form-control mb-3" id="siteNameInput">
+    <label for="siteUrlInput" class="my-2">Site URL</label>
+    <input type="text" placeholder="Website URL" class="form-control mb-3" id="siteUrlInput">
+
+    <button onclick="addSite()" class="btn btn-danger">Submit</button>
+
+    <table class="table text-white text-center my-5">
+      <thead>
+        <th>Site Name</th>
+        <th>Site URL </th>
+        <th>Visit</th>
+        <th>Delete</th>
+      </thead>
+      <tbody id="tBody">
+
+      </tbody>
+
+    </table>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
